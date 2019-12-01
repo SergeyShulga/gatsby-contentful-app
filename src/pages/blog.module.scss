@@ -1,0 +1,31 @@
+.posts {
+  margin: 0;
+  list-style-type: none;
+
+  &__item {
+    margin: 1rem 0;
+  }
+
+  &__link {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    background-color: #f4f4f4;
+    color: #000;
+    transition: .2s all;
+
+    &:hover {
+      background-color: #e4e4e4;
+    }
+
+    h2 {
+      margin-bottom: 0;
+    }
+
+    p {
+      color: #777;
+      font-size: .8rem;
+      font-style: italic;
+    }
+  }
+}
